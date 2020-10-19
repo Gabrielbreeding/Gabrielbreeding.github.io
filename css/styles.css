@@ -1,7 +1,67 @@
+html {
+    background-image: linear-gradient(to bottom left, rgb(107, 0, 107) , seagreen);
+    background-repeat: no-repeat;
+}
 
+body {
+    margin: 4em;
 
+    background-color: white;
+    background-repeat: no-repeat;
 
-.aboutBackground {
-    background-image: linear-gradient(to bottom left, red, yellow, green);
+    box-shadow: 4px 4px 5px  black;
+}
 
+header {
+    position: fixed top;
+}
+
+main {
+    margin: 0 4em;
+}
+
+footer{
+    text-align: center;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+#div1 img {
+    width: 100px;
+}
+#div1 ul li {
+    flex: 1;
+    text-align: left;
+    padding: 0 1em;
+}
+
+.navBar {
+    background-color: seagreen;
+}
+
+.navBar a {
+    color: white;
+}
+
+.navBar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navBar ul li {
+    padding: 1em;
+}
+.navBar ul li a{
+    display: block;
+    
+}
+.navBar ul li:hover{
+    background-color: darkseagreen;
+}
+
+.col {
+    text-align: center;
 }
