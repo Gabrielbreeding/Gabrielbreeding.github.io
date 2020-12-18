@@ -8,19 +8,22 @@ body {
 
     background-color: white;
     background-repeat: no-repeat;
+    font-size: 24px;
 
     box-shadow: 4px 4px 5px  black;
 }
 
-header {
-    position: fixed top;
+body img {
+    width: 15em;
 }
+
 
 main {
     margin: 0 4em;
 }
 
 footer{
+    clear: both;
     text-align: center;
 }
 
