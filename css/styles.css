@@ -32,10 +32,10 @@ li {
     list-style-type: none;
 }
 
-#div1 img {
+#media-links img {
     width: 100px;
 }
-#div1 ul li {
+#media-links ul li {
     flex: 1;
     text-align: left;
     padding: 0 1em;
